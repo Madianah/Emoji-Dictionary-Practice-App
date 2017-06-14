@@ -12,6 +12,7 @@
 		092C334D1EEAE21100CAE164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092C334B1EEAE21100CAE164 /* Main.storyboard */; };
 		092C334F1EEAE21100CAE164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092C334E1EEAE21100CAE164 /* Assets.xcassets */; };
 		092C33521EEAE21100CAE164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092C33501EEAE21100CAE164 /* LaunchScreen.storyboard */; };
+		092C335A1EF0CFD200CAE164 /* DefinitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C33591EF0CFD200CAE164 /* DefinitonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		092C334E1EEAE21100CAE164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092C33511EEAE21100CAE164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		092C33531EEAE21100CAE164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092C33591EF0CFD200CAE164 /* DefinitonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitonViewController.swift; path = ../DefinitonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				092C33471EEAE21100CAE164 /* AppDelegate.swift */,
 				092C33491EEAE21100CAE164 /* ViewController.swift */,
+				092C33591EF0CFD200CAE164 /* DefinitonViewController.swift */,
 				092C334B1EEAE21100CAE164 /* Main.storyboard */,
 				092C334E1EEAE21100CAE164 /* Assets.xcassets */,
 				092C33501EEAE21100CAE164 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				092C334A1EEAE21100CAE164 /* ViewController.swift in Sources */,
 				092C33481EEAE21100CAE164 /* AppDelegate.swift in Sources */,
+				092C335A1EF0CFD200CAE164 /* DefinitonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
