@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GCF-Sk-0nP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GCF-Sk-0nP">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -57,45 +57,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oKr-QI-ZYM">
-                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <rect key="frame" x="78.5" y="-73.5" width="218" height="239"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3qh-aA-HOq">
                                         <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlo-b2-Stp">
-                                                <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Nlo-b2-Stp" firstAttribute="centerX" secondItem="3qh-aA-HOq" secondAttribute="centerX" id="63D-zz-9l2"/>
-                                            <constraint firstItem="Nlo-b2-Stp" firstAttribute="top" secondItem="3qh-aA-HOq" secondAttribute="top" constant="60" id="9ga-AJ-pf6"/>
-                                            <constraint firstItem="Nlo-b2-Stp" firstAttribute="top" secondItem="3qh-aA-HOq" secondAttribute="top" constant="50" id="Ill-iY-Trc"/>
-                                            <constraint firstItem="Nlo-b2-Stp" firstAttribute="top" secondItem="3qh-aA-HOq" secondAttribute="top" constant="40" id="d1f-fr-f2j"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="3qh-aA-HOq" firstAttribute="top" secondItem="oKr-QI-ZYM" secondAttribute="top" constant="40" id="nu1-5k-B9b"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpu-qB-Wcf">
-                                <rect key="frame" x="103" y="399" width="168.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpu-qB-Wcf">
+                                <rect key="frame" x="103" y="415.5" width="168.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxR-6q-OXA">
+                                <rect key="frame" x="122.5" y="456" width="130" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRo-hZ-LCq">
+                                <rect key="frame" x="129" y="496" width="116.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlo-b2-Stp">
+                                <rect key="frame" x="78" y="101.5" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Kpu-qB-Wcf" firstAttribute="top" secondItem="oKr-QI-ZYM" secondAttribute="bottom" constant="250" id="6oY-qG-Z72"/>
+                            <constraint firstItem="Nlo-b2-Stp" firstAttribute="centerX" secondItem="5PG-fi-C3i" secondAttribute="centerX" id="77M-Wv-gVZ"/>
+                            <constraint firstItem="FRo-hZ-LCq" firstAttribute="centerX" secondItem="5PG-fi-C3i" secondAttribute="centerX" id="K4b-r0-hgN"/>
+                            <constraint firstItem="PxR-6q-OXA" firstAttribute="top" secondItem="Kpu-qB-Wcf" secondAttribute="bottom" constant="20" id="L0r-86-ljY"/>
+                            <constraint firstItem="FRo-hZ-LCq" firstAttribute="top" secondItem="PxR-6q-OXA" secondAttribute="bottom" constant="20" id="Oy8-US-0dd"/>
                             <constraint firstItem="oKr-QI-ZYM" firstAttribute="centerX" secondItem="5PG-fi-C3i" secondAttribute="centerX" id="WOY-N2-mVi"/>
+                            <constraint firstItem="5Db-3o-wZc" firstAttribute="top" secondItem="PxR-6q-OXA" secondAttribute="bottom" constant="191" id="Wib-f5-u1m"/>
+                            <constraint firstItem="PxR-6q-OXA" firstAttribute="centerX" secondItem="5PG-fi-C3i" secondAttribute="centerX" id="YlL-hk-Pa7"/>
                             <constraint firstItem="Kpu-qB-Wcf" firstAttribute="centerX" secondItem="5PG-fi-C3i" secondAttribute="centerX" id="imn-gL-OJs"/>
+                            <constraint firstItem="Kpu-qB-Wcf" firstAttribute="top" secondItem="Nlo-b2-Stp" secondAttribute="bottom" constant="75" id="vjR-H3-YSz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthyear" destination="FRo-hZ-LCq" id="kxM-dp-Wdb"/>
+                        <outlet property="categories" destination="PxR-6q-OXA" id="PPQ-qB-Fw7"/>
                         <outlet property="definitionLabel" destination="Kpu-qB-Wcf" id="4L2-Zt-Xwy"/>
                         <outlet property="emojiLabel" destination="Nlo-b2-Stp" id="LUX-Re-1UQ"/>
                     </connections>
